@@ -79,5 +79,5 @@ if [ -z "$INSTANCE" ]; then
     exit 1
 else
     echo "✅ Using: $INSTANCE"
-    open "${INSTANCE}/watch?v=${VIDEO_ID}"
+    open "${INSTANCE}/embed/${VIDEO_ID}"
 fi
